@@ -4,13 +4,13 @@
   "description": "## Topics",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bradzickafoose/node-db4-challenge.git"
   },
-  "author": "",
+  "author": "Brad ZIckafoose",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bradzickafoose/node-db4-challenge/issues"

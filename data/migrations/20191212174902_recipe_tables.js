@@ -19,8 +19,8 @@ exports.up = function (knex) {
             tbl.integer('ingredients_id')
                 .unsigned()
                 .notNullable()
-                .references('id') // ?
-                .inTable(''); // ?
+                .references('id')
+                .inTable('recipes');
         })
 
         .createTable('instructions', tbl => {
